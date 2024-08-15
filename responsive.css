@@ -1,0 +1,35 @@
+@media screen and (max-width: 420px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  img {
+    width: 350px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .mobile img {
+    width: 290px;
+    height: 150px;
+    display: flex;
+  }
+
+  #conteiner {
+    display: flex;
+    margin: 0 0;
+    display: inline;
+  }
+}

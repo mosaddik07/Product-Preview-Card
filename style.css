@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* <!-- =====================================Author:mosaddik_Billah==============================================     
+==================================E-mail:mosaddek.b1307@gmail.com ========================================  
+===============================Web: https://mosaddikbillah.vercel.app ====================================  --> */
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+#conteiner {
+  display: flex;
+  margin: 0 auto;
+}
+
+body {
+  background: hsl(30, 38%, 92%);
+}
+
+.card {
+  display: flex;
+  width: 650px;
+  height: 480px;
+  margin-left: 300px;
+  margin-top: 90px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.desktop img {
+  width: 350px;
+  height: 480px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.perfume {
+  font-weight: 3;
+  font-style: inherit;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 3px;
+}
+
+.card_body {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: left;
+}
+
+.card_body p {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.delete {
+  float: right;
+  text-decoration: line-through;
+  font-weight: 320;
+  position: relative;
+  bottom: 8px;
+  left: 30px;
+}
+
+.price {
+  display: inline-block;
+  color: hsl(158, 36%, 37%);
+}
+
+#conteiner button {
+  width: 100%;
+  height: 50px;
+  background: rgb(3, 75, 3);
+  color: #fff;
+  font-weight: 600;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#conteiner button img {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#conteiner button:active {
+  background: rgb(1, 52, 1);
+}
+
+.card_body::selection {
+  background: hsl(158, 36%, 37%);
+  color: #fff;
+}
+
+.mobile {
+  display: none;
+}
